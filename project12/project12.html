@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title></title>
+    <style>
+        body{
+            background-color:violet;
+        }
+        *{
+    font-family: sans-serif;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border: 5px;
+    border-width: solid;
+    border-color: black;
+}
+#col1, tr:first-child{
+    color:aqua;
+    font-size: 35px;
+    word-spacing: 1px;
+    
+}
+#num{
+    font-size: 45px;
+    color:dimgrey;
+}
+
+tr:nth-child(2){
+    opacity: 0.8;
+    size: 50px;
+    word-spacing: 2px;
+}
+
+#col, tr:nth-child(2){
+    font-size: 30px;
+    word-spacing: 2px;
+}
+.button{
+    background-color:dimgray ;
+    border:2px solid black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+    </style>
+</head>
+
+<body >
+    <table align="center">
+        <tr>
+            <div id="col1">
+            <td align="center"><button class="button">&#160 User ID</button></td>
+            <td align="center"><a id="num">&lt; HTML&gt;</a><br>Input Text Box | Field</td>
+            </div>
+        </tr>
+        <tr>
+            <div id="col2">
+            <td align="center"><button class="button">Password</button></td>
+            <td align="center">Value | Size | mutliline | Examples</td>
+            </div>
+        </tr>
+    </table>
+</body>
+</html>
